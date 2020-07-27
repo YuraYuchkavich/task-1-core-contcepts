@@ -1,6 +1,6 @@
 import React from 'react'
 
-function CreateElementComponent(props) {
+function CreateElementComponent() {
     return React.createElement('h1', {}, 'Hello World')
 }
 
