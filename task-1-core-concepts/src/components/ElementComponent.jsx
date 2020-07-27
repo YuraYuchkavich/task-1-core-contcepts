@@ -1,11 +1,7 @@
-import React from 'react';
+import React from 'react'
 
-class CreateElementComponent extends React.Component {
-  render() {
-    const CreateElement = React.createElement('h1', {}, 'Hello World');
-    
-    return CreateElement;
-  }
+function CreateElementComponent(props) {
+    return React.createElement('h1', {}, 'Hello World')
 }
 
 export default CreateElementComponent
